@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  width: 100%;
+  background-color: #fbf4ea;
+  box-sizing: border-box;
+  border: 1px solid #c7b599;
+}
+.conheca {
+  flex: 0.4;
+  margin-left: 60px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #412800;
+}
+.conheca svg {
+  padding-top: 5px;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.lista {
+  flex: 0.5;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.lista li {
+  margin-right: 50px;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #412800;
+}
+
+@media (max-width: 1400px) {
+  .lista {
+    margin: 0 30px 0 0;
+  }
+}
+@media (max-width: 1000px) {
+  .lista {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 650px) {
+  .conheca {
+    margin-left: 30px;
+  }
+  .header {
+    height: 75px;
+  }
+  .logo img {
+    width: 105px;
+  }
+}
+@media (max-width: 450px) {
+}

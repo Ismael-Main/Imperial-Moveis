@@ -1,0 +1,173 @@
+.footer {
+  background-color: #e7dccc;
+  margin-top: 90px;
+  border: 0.4px #9a7a4c solid;
+  animation: surgir 2s;
+}
+.tituloCtn {
+  display: flex;
+  margin: 0 auto;
+  width: 720px;
+}
+.infoCtn {
+  display: flex;
+  margin: 0 auto;
+  width: 720px;
+}
+
+.titulo {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 400;
+  color: #412800;
+  letter-spacing: 1px;
+  margin: 40px 0 0 0;
+}
+
+.titulo:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 70px;
+  background-color: #412800;
+  margin-top: 15px;
+}
+.subTitulo {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 300;
+  color: #412800;
+  letter-spacing: 0.5px;
+  margin: 50px 0 0 0;
+}
+.subTitulo:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 40px;
+  background-color: #412800;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.contatos span {
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #4b2e00;
+  margin-top: 15px;
+}
+.contatos p {
+  margin-left: 5px;
+}
+.redes {
+  margin-left: 65px;
+}
+.redes svg {
+  margin-right: 20px;
+  transition: 0.3s;
+}
+.redes svg:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.arte {
+  position: relative;
+  float: right;
+  right: 0;
+  margin-right: 30px;
+  bottom: 20px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  background-color: #cb9848;
+  border: 0.1px solid #b97100;
+  margin: 60px 0 60px 0;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.copyright p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #573500;
+  font-family: Roboto;
+}
+@media (max-width: 1140px) {
+  .subTitulo {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: 50px 0 0 0;
+  }
+  .contatos span {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #4b2e00;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 760px) {
+  .tituloCtn {
+    margin: 0 30px;
+    width: 250px;
+  }
+  .infoCtn {
+    margin: 0 30px;
+    width: 320px;
+  }
+  .infoCtn {
+    display: block;
+    margin: 0 30px;
+  }
+  .redes {
+    margin-left: 0px;
+  }
+  .subTitulo {
+    margin: 40px 0 0 0;
+  }
+  .copyright p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 560px) {
+  .arte {
+    margin-right: 10px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    margin-top: 60px;
+  }
+  .copyright {
+    height: 40px;
+    margin: 40px 0 40px 0;
+  }
+  .copyright p {
+    font-size: 12px;
+    letter-spacing: 0.56px;
+  }
+  .redes svg {
+    margin-right: 13px;
+  }
+}
+@keyframes surgir {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

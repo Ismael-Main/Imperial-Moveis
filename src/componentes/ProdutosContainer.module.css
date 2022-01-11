@@ -1,0 +1,251 @@
+.produtosContainer {
+  background-color: #fbf4ea;
+}
+.titulo {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 200;
+  padding-top: 40px;
+  animation: surgir 1s;
+}
+.titulo::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 60px;
+  background-color: #4b2e00;
+  margin: 13px auto 0 auto;
+}
+.boxCtn {
+  margin: 70px 0 70px 60px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  animation: surgir 1s;
+}
+.box {
+  display: flex;
+  margin-bottom: 70px;
+}
+.boxInfos {
+  margin: 0 0 0 60px;
+}
+.nomeProduto {
+  font-size: 48px;
+  line-height: 48px;
+  color: #412800;
+}
+.nomeProduto::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 180px;
+  background-color: #c7b599;
+  margin-top: 15px;
+}
+.classeProduto {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.textoProduto {
+  font-size: 18px;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #412800;
+  margin-top: 40px;
+  width: 300px;
+}
+.botao {
+  color: #4b2e00;
+  background-color: #cb9848;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-size: 18px;
+  line-height: 18px;
+  border: none;
+  width: 270px;
+  height: 55px;
+  margin-top: 163px;
+}
+.botao:hover {
+  color: #fff;
+  background-color: #533300;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.preco {
+  background-color: #e7dccc;
+  height: 85px;
+  width: 185px;
+  position: absolute;
+  float: right;
+  margin-top: -110px;
+  margin-left: 390px;
+}
+.preco p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.5px;
+  color: #412800;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+.preco p::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #4b2e00;
+  margin: 5px 0 0 0;
+}
+.preco span {
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  color: #412800;
+  margin: 10px 20px;
+}
+.preco sup {
+  font-size: 18px;
+}
+
+@media (max-width: 1150px) {
+  .box img {
+    width: 500px;
+  }
+  .nomeProduto {
+    font-size: 38px;
+    line-height: 38px;
+  }
+  .classeProduto {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .textoProduto {
+    font-size: 16px;
+    margin-top: 40px;
+    width: 300px;
+  }
+  .botao {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    width: 250px;
+    height: 55px;
+    margin-top: 120px;
+  }
+  .preco {
+    background-color: #e7dccc;
+    height: 85px;
+    width: 170px;
+    margin-top: -100px;
+    margin-left: 320px;
+  }
+  .preco p {
+    font-size: 12px;
+    padding: 10px 0 0 0;
+  }
+  .preco p::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #4b2e00;
+    margin: 5px 0 0 0;
+  }
+  .preco span {
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #412800;
+    margin: 10px 10px;
+  }
+}
+@media (max-width: 950px) {
+  .box {
+    display: block;
+    margin-bottom: 80px;
+  }
+  .boxInfos {
+    margin: 20px 0 0 0px;
+  }
+  .botao {
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 14px;
+    border: none;
+    width: 200px;
+    height: 45px;
+    margin-top: 30px;
+  }
+  .textoProduto {
+    font-size: 14px;
+    margin-top: 20px;
+    width: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .boxCtn {
+    margin: 50px 0 50px 30px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    animation: surgir 1s;
+  }
+}
+@media (max-width: 600px) {
+  .produtosContainer {
+    margin-top: 10px;
+  }
+  .box img {
+    width: 350px;
+  }
+  .preco {
+    height: 70px;
+    width: 147px;
+    margin-top: -85px;
+    margin-left: 190px;
+  }
+  .preco p {
+    font-size: 10px;
+    padding: 5px 0 0 0;
+  }
+  .preco span {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin: 10px 10px;
+  }
+}
+@media (max-width: 500px) {
+  .produtosContainer {
+    margin-top: 10px;
+  }
+  .nomeProduto {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .box img {
+    width: 300px;
+  }
+
+  .preco {
+    height: 70px;
+    width: 145px;
+    margin-top: -85px;
+    margin-left: 145px;
+  }
+}
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    margin-left: -30px;
+  }
+  100% {
+    opacity: 1;
+  }
+}

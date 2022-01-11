@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.css';
+import PaginaProdutos from './PaginaProdutos';
+import Home from './Home';
+import React from 'react';
 
 function App() {
+  const { pathname } = useLocation();
+  const trechoString = pathname.substring(10);
+  const nome =
+    trechoString[0] &&
+    trechoString[0].toUpperCase() + trechoString.substring(1);
+
+  React.useEffect(() => {
+    if (pathname === '/') {
+      document.title = `Imperial Móveis | Home`;
+    } else {
+      document.title = `Imperial Móveis | ${nome}`;
+    }
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="produtos/*" element={<PaginaProdutos />} />
+      </Routes>
     </div>
   );
 }

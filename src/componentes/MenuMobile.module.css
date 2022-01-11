@@ -1,0 +1,135 @@
+.botaoMobileCtn {
+  display: block;
+  margin-left: 15rem;
+}
+.botaoMenuMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 65px;
+  background-color: transparent;
+  margin: 0 50px 0 0;
+  border: none;
+}
+.botaoMenuMobile span {
+  height: 4px;
+  width: 100%;
+  background-color: #905c08;
+  transition: 0.4s;
+}
+.botaoMenuMobile span::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #905c08;
+  margin-top: -11px;
+  transition: 0.4s;
+}
+
+.botaoMenuMobile span::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: #905c08;
+  margin-top: 18px;
+  transition: 0.4s;
+}
+.botaoMenuMobile:hover {
+  cursor: pointer;
+}
+.menuMobileLista {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  display: none;
+  right: 0px;
+  margin: 20px 35px 0 0;
+  width: 100px;
+  z-index: 10;
+}
+.menuMobileLista ul {
+  background-color: #e7dccc;
+}
+.menuMobileLista ul li {
+  text-align: center;
+  background-color: #fbf4ea;
+  padding: 15px 30px;
+  margin: 5px;
+  color: #412800;
+  transition: 0.4s;
+}
+.menuMobileLista ul li:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #905c08;
+  transition: 0.4s;
+}
+.menuMobileLista.ativo {
+  display: flex;
+  animation: descer 0.3s;
+}
+.botaoMenuMobile.ativo span {
+  background: transparent;
+}
+.botaoMenuMobile.ativo span:after {
+  transform: rotate(-35deg);
+  margin-top: -4px;
+}
+.botaoMenuMobile.ativo span:before {
+  transform: rotate(35deg);
+  margin-top: 0px;
+}
+
+@media (min-width: 1000px) {
+  .botaoMobileCtn {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  .botaoMobileCtn {
+    margin-left: 11rem;
+  }
+  .botaoMenuMobile {
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .botaoMobileCtn {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .botaoMobileCtn {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .botaoMobileCtn {
+    margin-left: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  .botaoMobileCtn {
+    margin-left: 1.5rem;
+  }
+  .botaoMenuMobile {
+    margin: 0 20px 0 0;
+  }
+}
+@keyframes descer {
+  0% {
+    margin-top: -20px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: fowards;
+    opacity: 1;
+  }
+}
