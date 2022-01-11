@@ -17,7 +17,7 @@
     "static/media/LogoImperial.svg": "./static/media/LogoImperial.18f547b10beabecb4f6539e46bfe1bee.svg",
     "static/media/rack.png": "./static/media/rack.61e79e888b200dcdf0d2.png",
     "static/media/mesas.png": "./static/media/mesas.c27041d40de93e615e30.png",
-    "index.html": "/",
+    "index.html": "./index.html",
     "main.04efeb76.css.map": "./static/css/main.04efeb76.css.map",
     "main.5fde8c28.js.map": "./static/js/main.5fde8c28.js.map"
   },
