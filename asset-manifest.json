@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.04efeb76.css",
-    "main.js": "./static/js/main.673c52da.js",
-    "static/media/decoracao2_img.png": "./static/media/decoracao2_img.a5c379486d84f939ce10.png",
-    "static/media/cadeira1_img.png": "./static/media/cadeira1_img.92ccee8a2d57729e8094.png",
-    "static/media/cadeira2_img.png": "./static/media/cadeira2_img.7e07fa1a4bc28678c5f6.png",
-    "static/media/rack2_img.png": "./static/media/rack2_img.039e72c759170a0593f9.png",
-    "static/media/mesa1_img.png": "./static/media/mesa1_img.827f714f5cdb3f2c6b08.png",
-    "static/media/rack1_img.png": "./static/media/rack1_img.198c6ec703cee751080a.png",
-    "static/media/decoracao1_img.png": "./static/media/decoracao1_img.6eb283c90a6979b665ee.png",
-    "static/media/mesa2_img.png": "./static/media/mesa2_img.f0b7eaa30b538f9574c5.png",
+    "main.js": "./static/js/main.0043f734.js",
+    "static/media/decoracao2Img.png": "./static/media/decoracao2Img.a5c379486d84f939ce10.png",
+    "static/media/cadeira1Img.png": "./static/media/cadeira1Img.92ccee8a2d57729e8094.png",
+    "static/media/cadeira2Img.png": "./static/media/cadeira2Img.7e07fa1a4bc28678c5f6.png",
+    "static/media/rack2Img.png": "./static/media/rack2Img.039e72c759170a0593f9.png",
+    "static/media/mesa1Img.png": "./static/media/mesa1Img.827f714f5cdb3f2c6b08.png",
+    "static/media/rack1Img.png": "./static/media/rack1Img.198c6ec703cee751080a.png",
+    "static/media/decoracao1Img.png": "./static/media/decoracao1Img.6eb283c90a6979b665ee.png",
+    "static/media/mesa2Img.png": "./static/media/mesa2Img.f0b7eaa30b538f9574c5.png",
     "static/media/cadeira1.jpg": "./static/media/cadeira1.4e855a8eed5d0ad6ea83.jpg",
     "static/media/sobreImg.png": "./static/media/sobreImg.9672b06a4b4d56d49bec.png",
     "static/media/decorativos.png": "./static/media/decorativos.3742a8fb31067e290223.png",
@@ -19,10 +19,10 @@
     "static/media/mesas.png": "./static/media/mesas.c27041d40de93e615e30.png",
     "index.html": "./index.html",
     "main.04efeb76.css.map": "./static/css/main.04efeb76.css.map",
-    "main.673c52da.js.map": "./static/js/main.673c52da.js.map"
+    "main.0043f734.js.map": "./static/js/main.0043f734.js.map"
   },
   "entrypoints": [
     "static/css/main.04efeb76.css",
-    "static/js/main.673c52da.js"
+    "static/js/main.0043f734.js"
   ]
 }
