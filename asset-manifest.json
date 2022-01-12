@@ -17,7 +17,7 @@
     "static/media/LogoImperial.svg": "/Imperial-Moveis/static/media/LogoImperial.18f547b10beabecb4f6539e46bfe1bee.svg",
     "static/media/rack.png": "/Imperial-Moveis/static/media/rack.61e79e888b200dcdf0d2.png",
     "static/media/mesas.png": "/Imperial-Moveis/static/media/mesas.c27041d40de93e615e30.png",
-    "index.html": "/index.html",
+    "index.html": "../index.html",
     "main.eef1a451.css.map": "/Imperial-Moveis/static/css/main.eef1a451.css.map",
     "main.830552d6.js.map": "/Imperial-Moveis/static/js/main.830552d6.js.map"
   },
